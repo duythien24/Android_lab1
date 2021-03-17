@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EFDF">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress12"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="15dp"
+        android:background="#c9e0d0"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress7" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress13"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:background="#c9e0d0"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress11"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="15dp"
+        android:background="#c9e0d0"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress10"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress10"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress10" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress10"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="15dp"
+        android:background="#c9e0d0"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress13"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress13"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress13" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:text="REGISTER"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress7"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="15dp"
+        android:background="#c9e0d0"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress11"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress11"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress7" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress13"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress13"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress13"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress13" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#030303"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress10"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress10"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress10"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress10" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#040404"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress11"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress11"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress11"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress11" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress12" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="36dp"
+        android:layout_height="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress7"
+        app:srcCompat="@drawable/group" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Male"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress12" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Female"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintStart_toEndOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress12" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#c34e3b"
+        android:text="REGISTER"
+        android:textColor="#D8EFDF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress12"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress12" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="When you agree to terms and conditions"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
